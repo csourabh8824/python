@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>860</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>sans-serif</family>
+   </font>
+  </property>
+  <property name="cursor">
+   <cursorShape>OpenHandCursor</cursorShape>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::WheelFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>coffee vending machine</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family : sans-serif;
+background:black;
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>270</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>sans-serif</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string extracomment="Dispense cappuccino">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dispense Cappuccino&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton
+{
+background:brown;
+color:white;
+font-size:20px;
+border-radius:30px;
+font-style:decorative;
+}</string>
+   </property>
+   <property name="text">
+    <string>     CAPPUCCINO</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Desktop/cup-of-coffee-icon-4.png</normaloff>../Desktop/cup-of-coffee-icon-4.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>270</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>sans-serif</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string extracomment="Dispense latte"/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_2
+{
+background:brown;
+color:white;
+font-size:20px;
+border-radius:30px;
+}</string>
+   </property>
+   <property name="text">
+    <string>           LATTE</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>cup5.png</normaloff>cup5.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>390</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>sans-serif</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string extracomment="Dispense coffee"/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_3
+{
+background:brown;
+color:white;
+font-size:20px;
+border-radius:30px;
+}</string>
+   </property>
+   <property name="text">
+    <string>            COFFEE</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>cup.svg</normaloff>cup.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>390</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>sans-serif</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string extracomment="Dispense espresso"/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_4
+{
+background:brown;
+color:white;
+font-size:20px;
+border-radius:30px;
+}</string>
+   </property>
+   <property name="text">
+    <string>      ESPRESSO</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>cup0.png</normaloff>cup0.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>530</y>
+     <width>561</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>sans-serif</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label
+{
+
+background:brown;
+color:white;
+font-size:20px;
+border-radius:30px;
+font-size:35px;
+}</string>
+   </property>
+   <property name="text">
+    <string>COFFEE    VENDING    MACHINE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>340</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string extracomment="admin work"/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_5
+{
+background:brown;
+color:white;
+font-size:20px;
+border-radius:30px;
+font-style:decorative;
+}</string>
+   </property>
+   <property name="text">
+    <string>RE-FILL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>50</y>
+     <width>171</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>download.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>label_2</zorder>
+ </widget>
+ <resources>
+  <include location="test.qrc"/>
+ </resources>
+ <connections/>
+</ui>
